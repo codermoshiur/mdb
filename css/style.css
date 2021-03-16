@@ -1,0 +1,44 @@
+html, body {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    height: 100%;
+}
+
+.gradient {
+  background: rgb(3,94,241);
+  background: -webkit-linear-gradient(top left, rgba(3,94,241,1) 0%, rgba(97,8,202,1) 100%);
+  background: -o-linear-gradient(top left, rgba(3,94,241,1) 0%, rgba(97,8,202,1) 100%);
+  background: linear-gradient(to bottom right, rgba(3,94,241,1) 0%, rgba(97,8,202,1) 100%);
+}
+.feature ul {
+  list-style-type: none;
+  margin-top: 2rem;
+}
+
+.feature ul li {
+  background: url(../img/check.svg) no-repeat;
+  padding-left: 2em;
+  margin: 1rem 0;
+}
+.icon {
+  width: 5rem;
+  height: 5rem;
+  color: #fff;
+  border-radius: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.gallery {
+  background-color: whitesmoke;
+}
+
+.copyright {
+  text-decoration: none;
+}
+.copyright:hover {
+  text-decoration: underline;
+}
